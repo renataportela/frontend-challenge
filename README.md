@@ -2,13 +2,17 @@
 
 [Barkyn](https://www.barkyn.com/) is a subscription for pets, changing the pet market and reshaping the way the ecommerce experience should feel - human, seamless & beautiful.
 It's true happiness in a box: food, goodies, vet support and personalized care all-in-one.
-Barkyn was one of the 8 startups selected by Google's to its Growth Program and has been highlighted by large media like Monocle. The company is operating in several European markets, becoming a loved brand online.
+
+Barkyn was one of the 8 startups selected by Google's to its Growth Program and has been highlighted by large media like Monocle. The company is operating in
+several European markets, becoming a loved brand online.
 
 ## Getting Started 🐶
 
-This is our coding challenge, aimed at getting to know you and your code a bit better.
-There's no time limit on the challenge, do your best at your own time.
+This is our coding challenge, aimed at getting to know you and your code a bit better.</br>
+There's no time limit on the challenge, do your best at your own time.</br>
+
 If you have any questions while developing that aren't made clear here, reach out to [filipa.batista@barkyn.com](mailto:filipa.batista@barkyn.com).
+
 Most of all, we hope you have fun working on this, show off your skills!
 
 1.  Fork this repository to your personal github account
@@ -17,7 +21,7 @@ Most of all, we hope you have fun working on this, show off your skills!
 
 ## About the Challenge
 
-Please take a look on the [challenge layout](https://app.abstract.com/projects/2095792b-5852-4b0a-9cc9-bcb29996a2d7/branches/master/collections/ceba3155-5c51-4969-8b5f-f3167776aa3e)
+Please take a look on the [challenge layout](https://app.abstract.com/projects/2095792b-5852-4b0a-9cc9-bcb29996a2d7/branches/master/collections/ceba3155-5c51-4969-8b5f-f3167776aa3e).</br>
 You will find everything you need on `/assets` folder.
 
 You will be building a React web app based on the Next.js framework.
