@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cart_with_items</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cart_with_items">
+            <polygon id="bounding-box-24px" points="0 32 32 32 32 0 0 0"></polygon>
+            <path d="M16,16 C13.737,16 11.329,14.849 11.031,11.677 C10.997,11.317 11.269,11 11.629,11 L12.433,11 C12.73,11 12.995,11.219 13.024,11.516 C13.19,13.165 14.189,14 16,14 C17.811,14 18.81,13.165 18.976,11.516 C19.005,11.219 19.27,11 19.567,11 L20.371,11 C20.731,11 21.003,11.317 20.969,11.677 C20.671,14.849 18.263,16 16,16 L16,16 Z M25,9 C25,5.313 22.417,4 20,4 L12,4 C9.583,4 7,5.313 7.003,8.929 L6,23 C6,26.687 8.583,28 11,28 L21,28 C23.417,28 26,26.687 26,23 L25,9 Z" id="Icon" fill="#5F2EFF"></path>
+        </g>
+    </g>
+</svg>

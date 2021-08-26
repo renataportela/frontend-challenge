@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>payment</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="payment">
+            <polygon id="bounding-box-24px" points="0 24 24 24 24 0 0 0"></polygon>
+            <path d="M20,18 L4,18 C3.449,18 3,17.551 3,17 L3,12 L21,12 L21,17 C21,17.551 20.551,18 20,18 M4,6 L20,6 C20.551,6 21,6.449 21,7 L21,8 L3,8 L3,7 C3,6.449 3.449,6 4,6 M20,4 L4,4 C2.346,4 1,5.346 1,7 L1,17 C1,18.654 2.346,20 4,20 L20,20 C21.654,20 23,18.654 23,17 L23,7 C23,5.346 21.654,4 20,4" id="Icon" fill="#5F2EFF"></path>
+        </g>
+    </g>
+</svg>
