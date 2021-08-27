@@ -11,17 +11,17 @@ several European markets, becoming a loved brand online.
 This is our coding challenge, aimed at getting to know you and your code a bit better.</br>
 There's no time limit on the challenge, do your best at your own time.</br>
 
-If you have any questions while developing that aren't made clear here, reach out to [filipa.batista@barkyn.com](mailto:filipa.batista@barkyn.com).
+If you have any questions while developing that aren't made clear here, reach out to [dev@barkyn.com](mailto:dev@barkyn.com).
 
 Most of all, we hope you have fun working on this, show off your skills!
 
 1.  Fork this repository to your personal github account
 2.  Solve the challenge, do your best :)
-3.  Send us an email with your repository url to: [ana.santos@barkyn.com](mailto:ana.santos@barkyn.com)
+3.  Send us an email with your repository url to: [dev@barkyn.com](mailto:dev@barkyn.com)
 
 ## About the Challenge
 
-Please take a look on the [challenge layout](https://app.abstract.com/projects/2095792b-5852-4b0a-9cc9-bcb29996a2d7/branches/master/collections/ceba3155-5c51-4969-8b5f-f3167776aa3e).</br>
+Please take a look on the [challenge layout](https://share.goabstract.com/6dadeb1d-f205-49b7-af8c-f0bc2652a242).</br>
 You will find everything you need on `/assets` folder.
 
 You will be building a React web app based on the Next.js framework.
@@ -87,7 +87,9 @@ The goal is to build a checkout process within a single page application that in
 - Loading transitions between pages (e.g. [react-loading-skeleton](https://github.com/dvtng/react-loading-skeleton))
 - Accessibility concerns
 - A demo website running on Vercel, Netlify or any other similar free platform
-- Visually balanced UI and UX
+- It doesn't have to be pixel perfect but follow the layout
+- Use theme with design tokens
+- Use a internationalization framework (e.g. [i18next](https://www.i18next.com/))
 
 ## Other notes
 
@@ -96,7 +98,6 @@ These are some of the technologies in our stack, feel free to use them in your p
 - [Yarn](https://yarnpkg.com)
 - [Emotion](https://emotion.sh)
 - [Formik](https://formik.org)
-- [Redux-Saga](https://redux-saga.js.org)
 - [ESLint](https://eslint.org)
 - [stylelint](https://stylelint.io)
 - [Prettier](https://prettier.io)
