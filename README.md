@@ -49,13 +49,6 @@ The goal is to build a checkout process within a single page application that in
 
 - The checkout page must be a different route
 - It should have a summary section with all products in cart and total price
-- Present a form for the shipping details with the following fields:
-  - Name
-  - Email
-  - Address
-  - Postal code
-  - Country
-  - Phone
 - All form fields must be filled in order to complete a successful purchase
 - The user should be able to save the selected shipping details
 - Add a button to complete the order that routes to a success page - no need to actually fake a purchase
