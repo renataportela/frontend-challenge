@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-import { Box, Text } from '/components/ui'
+import { Box, Button, Text } from '/components/ui'
 import { colors, spacing } from '/tokens'
 
 import DetailText from './ProductCardDetailText'
@@ -24,6 +24,7 @@ function ProductCard({ productId, shortName, image, price, originalPrice, packag
         <Detail text="Review">
           <ReviewStars review={review} />
         </Detail>
+        <Button>Add product</Button>
       </Box>
     </Container>
   )

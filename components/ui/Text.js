@@ -10,7 +10,7 @@ import {
   spacing,
 } from "/tokens";
 
-const typographyStyles = ({
+export const typographyStyles = ({
   color = 'currentColor',
   family = fontFamily.default,
   lineThrough = false,
