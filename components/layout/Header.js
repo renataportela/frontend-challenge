@@ -2,6 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { Container } from 'react-grid-system'
 
+import { CartButton } from '/components/app/cart'
 import { shadow, spacing } from '/tokens'
 import Logo from './Logo'
 
@@ -13,7 +14,7 @@ function Header() {
           <Logo />
         </LogoContainer>
 
-        cart
+        <CartButton />
       </InnerContainer>
     </HeaderContainer>
   )
@@ -22,8 +23,8 @@ function Header() {
 const HeaderContainer = styled.div`
   align-items: center;  
   box-shadow: ${shadow.md};
-  padding: ${spacing.px.t3}px;
-  margin-bottom: ${spacing.px.t3}px;
+  padding: ${spacing.t3};
+  margin-bottom: ${spacing.t6};
 `
 
 const InnerContainer = styled(Container)`

@@ -22,7 +22,6 @@ class MyDocument extends Document {
 
             body {
               font-family: ${fontFamily.default};
-              font-size: ${fontSize.px4};
             }
           `} />
           <Main />
