@@ -14,4 +14,4 @@
   - Unit test of ProductCard component
 
 ## What could be improved
-  - HTML semantic, accessibily, test coverage
+  - HTML semantic, accessibility, test coverage
