@@ -3,12 +3,13 @@ import styled from '@emotion/styled'
 import { Container } from 'react-grid-system'
 
 import { CartButton } from '/components/app/cart'
-import { shadow, spacing } from '/tokens'
+
 import Logo from './Logo'
+import MenuBar from './MenuBar'
 
 function Header() {
   return (
-    <HeaderContainer>
+    <MenuBar>
       <InnerContainer>
         <LogoContainer>
           <Logo />
@@ -16,18 +17,12 @@ function Header() {
 
         <CartButton />
       </InnerContainer>
-    </HeaderContainer>
+    </MenuBar>
   )
 }
 
-const HeaderContainer = styled.div`
-  align-items: center;  
-  box-shadow: ${shadow.md};
-  padding: ${spacing.t3};
-  margin-bottom: ${spacing.t6};
-`
-
 const InnerContainer = styled(Container)`
+  flex: 1;
   display: flex;
   flex-direction: row;
 `

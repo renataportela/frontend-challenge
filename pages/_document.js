@@ -2,7 +2,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 import emotionReset from 'emotion-reset'
 import { Global, css } from '@emotion/react'
 
-import { fontFamily, fontSize } from '/tokens'
+import { fontFamily } from '/tokens'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {

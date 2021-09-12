@@ -18,7 +18,7 @@ const Box = styled.div(
     justifyContent: centered ? 'center' : justify,
     alignItems: centered ? 'center' : alignItems,
     padding: padding ? spacing[`t${padding}`] : null,
-    wrap,
+   flexWrap: wrap,
   })
 )
 

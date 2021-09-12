@@ -14,7 +14,7 @@ export const typographyStyles = ({
   color = 'currentColor',
   family = fontFamily.default,
   lineThrough = false,
-  size,
+  size = '4',
   lineHeight = size,
   mb,
   weight = 'normal'

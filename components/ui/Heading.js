@@ -5,7 +5,7 @@ function Heading({ children, size, ...props }) {
   const tag = `h${size}`
 
   return (
-    <Text as={tag} size={headingSize[tag]} weight="300" {...props}>
+    <Text as={tag} size={headingSize[tag]} weight="300" role="heading" {...props}>
       {children}
     </Text>
   )

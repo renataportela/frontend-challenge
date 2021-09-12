@@ -1,14 +1,21 @@
 import React from 'react'
 import Image from 'next/image'
+import { useAtomValue, useUpdateAtom } from 'jotai/utils'
 
 import { Box, Text } from '/components/ui'
+import { isMiniCartOpenAtom, countCartItemsAtom } from '/store'
 
 function CartButton() {
-  // TODO: integration
-  const count = 0
+  const count = useAtomValue(countCartItemsAtom)
+  const setIsOpen = useUpdateAtom(isMiniCartOpenAtom)
+
+  const onClick = e => {
+    e.stopPropagation()
+    setIsOpen(true)
+  }
 
   return (
-    <Box alignItems="center">
+    <Box alignItems="center" style={{ cursor: 'pointer' }} onClick={onClick}>
       <Text size="2" weight="bold">
         {count}
       </Text>
@@ -19,7 +26,7 @@ function CartButton() {
         height="24"
       />
     </Box>
-  );
+  )
 }
 
 export default CartButton

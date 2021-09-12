@@ -1,10 +1,11 @@
 import React from 'react'
+// import { useHydrateAtoms } from 'jotai/utils'
 
-import { ProductCard } from '/components/app/product'
-import { Layout } from '/components/layout'
+import { ProductList } from '/components/app/product'
+import { ShopLayout } from '/components/layout'
 import { Heading, Text } from '/components/ui'
 
-function HomePage() {
+function HomePage({ products }) {
   return (
     <>
       <Heading size="3">Store</Heading>
@@ -12,24 +13,28 @@ function HomePage() {
         Explore our vast selection of premium products.
       </Text>
 
-      <ProductCard
-        productId="1"
-        shortName="Barkyn Salmon Crisps"
-        image="/PNGs/food.png"
-        price="2,24"
-        originalPrice="2,29"
-        review={5}
-      />
+      <ProductList products={products} />
     </>
   )
 }
 
-export default HomePage
-
 HomePage.getLayout = function getLayout(page) {
   return (
-    <Layout>
+    <ShopLayout>
       {page}
-    </Layout>
+    </ShopLayout>
   )
 }
+
+export async function getStaticProps(context) {
+  const res = await fetch('http://localhost:3000/api/products')
+  const products = await res.json()
+
+  return {
+    props: { 
+      products: products || [] 
+    },
+  }
+}
+
+export default HomePage

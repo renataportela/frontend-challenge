@@ -13,11 +13,16 @@ function ProductCardImage({ image, alt = 'Photo' }) {
 }
 
 const Container = styled(Box)`
-  max-width: 220px;
   height: 185px;
-  max-height: 185px;
   position: relative;
   overflow: hidden;
+  width: 148px;
+  max-width: 148px;
+
+  @media (min-width: 576px) {
+    width: 220px;
+    max-width: 220px;
+  }
 `
 
 const StyledImg = styled(Image)`

@@ -1,4 +1,8 @@
 export { default as Box } from './Box'
 export { default as Button } from './Button'
+export { default as CloseButton } from './CloseButton'
+export { default as Divider } from './Divider'
+export { default as Drawer } from './Drawer'
 export { default as Heading } from './Heading'
+export { default as RowBetween } from './RowBetween'
 export { default as Text } from './Text'
